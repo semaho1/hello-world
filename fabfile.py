@@ -1,4 +1,4 @@
 from fabric.api import *
 
-# Uptime
-run("uptime")
+def update_upgrade():
+  run("uptime")
